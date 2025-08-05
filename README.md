@@ -90,7 +90,7 @@ The output trajectories are sent to the node from Task 1 for execution.
 ## Directory Structure
 
 Key directories:
-- `joint_pub/`: Contains robot description (URDF) and launch files
+- `robot_model/`: Contains robot description (URDF) and launch files
 - `joint_commander/`: Implementation for Task 1 (joint + base motion)
 - `motion_commander/`: Library for Cartesian motion (Task 2)
 
