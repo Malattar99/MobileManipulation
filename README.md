@@ -71,18 +71,18 @@ The output trajectories are sent to the node from Task 1 for execution.
 ### Task 1: Sinusoidal Joint Motion + Circular Base
    Run:
    ```bash
-   ros2 launch joint_pub task_1.launch.py
+   ros2 launch robot_model task_1.launch.py
 ```
 ![Robot demo](media/task_1.gif)
 
 ### Task 2.1: Linear Cartesian Motion
    ```bash
-   ros2 launch joint_pub task_2a.launch.py
+   ros2 launch robot_model task_2a.launch.py
 ```
 ![Robot demo](media/task_2a.gif)
 ### Task 2.2: TCP Tracking + Base Motion
    ```bash
-   ros2 launch joint_pub task_2b.launch.py
+   ros2 launch robot_model task_2b.launch.py
 ```
 ![Robot demo](media/task_2b.gif)
 
