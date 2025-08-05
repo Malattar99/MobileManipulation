@@ -1,6 +1,6 @@
 # robot_model
 
-This repository contains description files and meshes for the ur5 manipulator. It has been changed so that the robot is on a floating base that can move in x,y and $\theta$ 
+This repository contains description files and meshes for the ur5 manipulator. It has been changed so that the robot is on a floating base that can move in the `x`,`y` plane and rotate around the `z` axis.
 
 ## Structure of the repository
 
