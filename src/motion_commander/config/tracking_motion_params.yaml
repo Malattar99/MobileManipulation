@@ -1,0 +1,15 @@
+motion_generator_node:
+  ros__parameters:
+    target_position:
+      x: 0.5
+      y: 0.5
+      z: 0.4
+    
+    arm_motion:
+      velocity: 0.5        # m/s
+      acceleration: 0.5    # m/s²
+    
+    base_motion:
+      velocity: 0.5       # m/s (5 cm/s)
+      acceleration: 0.5    # m/s²
+      distance: 0.8        # m

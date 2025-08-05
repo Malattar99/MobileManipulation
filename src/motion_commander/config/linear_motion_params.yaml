@@ -1,0 +1,19 @@
+motion_generator_node:
+  ros__parameters:
+    pose1:
+      x: 0.7
+      y: 0.0
+      z: 0.4
+      roll: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    pose2:
+      x: 0.7
+      y: 0.5
+      z: 0.4
+      roll: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    linear_velocity: 0.5
+    linear_acceleration: 0.2
+    continuous_motion: true
